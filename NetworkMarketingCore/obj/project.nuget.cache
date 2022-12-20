@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/aSWSWfkBL3ToD9BknFNBbFYNMD6TbeZwj4M2KD2ubo40oNsjgCUkfgP52djgv5Wzba5P2gJiMAS42OAScaZiw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ngobejishvili\\Desktop\\New folder\\NetworkMarketingCore\\NetworkMarketingCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ngobejishvili\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+  ],
+  "logs": []
+}

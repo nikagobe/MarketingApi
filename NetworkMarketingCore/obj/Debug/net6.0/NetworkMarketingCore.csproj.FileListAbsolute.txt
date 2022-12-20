@@ -1,0 +1,36 @@
+C:\Users\ngobejishvili\source\repos\NetworkMarketingAPI\NetworkMarketingCore\bin\Debug\net6.0\NetworkMarketingCore.deps.json
+C:\Users\ngobejishvili\source\repos\NetworkMarketingAPI\NetworkMarketingCore\bin\Debug\net6.0\NetworkMarketingCore.dll
+C:\Users\ngobejishvili\source\repos\NetworkMarketingAPI\NetworkMarketingCore\bin\Debug\net6.0\NetworkMarketingCore.pdb
+C:\Users\ngobejishvili\source\repos\NetworkMarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.csproj.AssemblyReference.cache
+C:\Users\ngobejishvili\source\repos\NetworkMarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ngobejishvili\source\repos\NetworkMarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.AssemblyInfoInputs.cache
+C:\Users\ngobejishvili\source\repos\NetworkMarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.AssemblyInfo.cs
+C:\Users\ngobejishvili\source\repos\NetworkMarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.csproj.CoreCompileInputs.cache
+C:\Users\ngobejishvili\source\repos\NetworkMarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.dll
+C:\Users\ngobejishvili\source\repos\NetworkMarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\refint\NetworkMarketingCore.dll
+C:\Users\ngobejishvili\source\repos\NetworkMarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.pdb
+C:\Users\ngobejishvili\source\repos\NetworkMarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\ref\NetworkMarketingCore.dll
+C:\Users\ngobejishvili\source\repos\MarketingAPI\NetworkMarketingCore\bin\Debug\net6.0\NetworkMarketingCore.deps.json
+C:\Users\ngobejishvili\source\repos\MarketingAPI\NetworkMarketingCore\bin\Debug\net6.0\NetworkMarketingCore.dll
+C:\Users\ngobejishvili\source\repos\MarketingAPI\NetworkMarketingCore\bin\Debug\net6.0\NetworkMarketingCore.pdb
+C:\Users\ngobejishvili\source\repos\MarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.csproj.AssemblyReference.cache
+C:\Users\ngobejishvili\source\repos\MarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ngobejishvili\source\repos\MarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.AssemblyInfoInputs.cache
+C:\Users\ngobejishvili\source\repos\MarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.AssemblyInfo.cs
+C:\Users\ngobejishvili\source\repos\MarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.csproj.CoreCompileInputs.cache
+C:\Users\ngobejishvili\source\repos\MarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.dll
+C:\Users\ngobejishvili\source\repos\MarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\refint\NetworkMarketingCore.dll
+C:\Users\ngobejishvili\source\repos\MarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.pdb
+C:\Users\ngobejishvili\source\repos\MarketingAPI\NetworkMarketingCore\obj\Debug\net6.0\ref\NetworkMarketingCore.dll
+C:\Users\ngobejishvili\Desktop\New folder\NetworkMarketingCore\bin\Debug\net6.0\NetworkMarketingCore.deps.json
+C:\Users\ngobejishvili\Desktop\New folder\NetworkMarketingCore\bin\Debug\net6.0\NetworkMarketingCore.dll
+C:\Users\ngobejishvili\Desktop\New folder\NetworkMarketingCore\bin\Debug\net6.0\NetworkMarketingCore.pdb
+C:\Users\ngobejishvili\Desktop\New folder\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.csproj.AssemblyReference.cache
+C:\Users\ngobejishvili\Desktop\New folder\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ngobejishvili\Desktop\New folder\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.AssemblyInfoInputs.cache
+C:\Users\ngobejishvili\Desktop\New folder\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.AssemblyInfo.cs
+C:\Users\ngobejishvili\Desktop\New folder\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.csproj.CoreCompileInputs.cache
+C:\Users\ngobejishvili\Desktop\New folder\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.dll
+C:\Users\ngobejishvili\Desktop\New folder\NetworkMarketingCore\obj\Debug\net6.0\refint\NetworkMarketingCore.dll
+C:\Users\ngobejishvili\Desktop\New folder\NetworkMarketingCore\obj\Debug\net6.0\NetworkMarketingCore.pdb
+C:\Users\ngobejishvili\Desktop\New folder\NetworkMarketingCore\obj\Debug\net6.0\ref\NetworkMarketingCore.dll
