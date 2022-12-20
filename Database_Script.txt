@@ -1,0 +1,213 @@
+/****** Object:  Table [dbo].[address]    Script Date: 12/20/2022 2:02:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[address](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[type_id] [int] NOT NULL,
+	[address] [varchar](100) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[address_type]    Script Date: 12/20/2022 2:02:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[address_type](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[type] [varchar](50) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[bonus]    Script Date: 12/20/2022 2:02:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[bonus](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[distributor_id] [int] NOT NULL,
+	[start_date] [date] NOT NULL,
+	[end_date] [date] NOT NULL,
+	[bonus_amount] [float] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[communication]    Script Date: 12/20/2022 2:02:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[communication](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[type_id] [int] NOT NULL,
+	[communication_info] [varchar](100) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[communication_type]    Script Date: 12/20/2022 2:02:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[communication_type](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[type] [varchar](50) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[distributors]    Script Date: 12/20/2022 2:02:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[distributors](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[first_name] [varchar](50) NOT NULL,
+	[last_name] [varchar](50) NOT NULL,
+	[birth_date] [date] NOT NULL,
+	[gender] [varchar](6) NOT NULL,
+	[file_id] [int] NULL,
+	[document_id] [int] NOT NULL,
+	[contact_info_id] [int] NOT NULL,
+	[address_id] [int] NOT NULL,
+	[referral_id] [int] NULL,
+	[referral_level] [int] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[document_type]    Script Date: 12/20/2022 2:02:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[document_type](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[type_name] [varchar](50) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[documents]    Script Date: 12/20/2022 2:02:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[documents](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[type_id] [int] NOT NULL,
+	[serial] [varchar](10) NULL,
+	[document_number] [varchar](10) NULL,
+	[date_of_issue] [date] NOT NULL,
+	[date_of_expiration] [date] NOT NULL,
+	[personal_number] [varchar](50) NOT NULL,
+	[issued_by] [varchar](100) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[products]    Script Date: 12/20/2022 2:02:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[products](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[code] [varchar](50) NOT NULL,
+	[name] [varchar](100) NOT NULL,
+	[price] [float] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[sales]    Script Date: 12/20/2022 2:02:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[sales](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[sale_code] [uniqueidentifier] NOT NULL,
+	[distributor_id] [int] NOT NULL,
+	[sale_date] [date] NOT NULL,
+	[product_id] [int] NOT NULL,
+	[quantity] [int] NOT NULL,
+	[total] [int] NOT NULL,
+	[included_in_bonus] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[sales] ADD  DEFAULT ((0)) FOR [included_in_bonus]
+GO
+USE [master]
+GO
+ALTER DATABASE [NetworkMarketingDB] SET  READ_WRITE 
+GO
+
+USE [NetworkMarketingDB]
+GO
+
+INSERT INTO [dbo].[address_type]
+           ([type])
+     VALUES
+           ('Factual address'),
+	   ('Registration Address')
+GO
+
+USE [NetworkMarketingDB]
+GO
+
+INSERT INTO [dbo].[communication_type]
+           ([type])
+     VALUES
+           ('Mobile phone'),
+           ('Home phone'),
+           ('Email'),
+           ('Fax')
+GO
+
+USE [NetworkMarketingDB]
+GO
+
+INSERT INTO [dbo].[document_type]
+           ([type_name])
+     VALUES
+           ('Identity card'),
+           ('Passport')
+GO
+
+
+
+
+
+
+
